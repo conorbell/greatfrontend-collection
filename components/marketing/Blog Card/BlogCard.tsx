@@ -1,10 +1,13 @@
 import React from 'react';
 import Image from 'next/image';
+import ProjectDescription from '../../general/ProjectDescription';
 
 export default function BlogCard() {
   return (
-    <div className='container flex flex-col justify-center items-center'>
-      <div className='card flex flex-col items-center w-[340px] bg-white rounded-lg'>
+    <div className='container flex flex-col '>
+      <ProjectDescription title={'Blog Card'} stack={'Html, CSS'} />
+
+      <div className='card flex flex-col items-center w-[340px] bg-white rounded-lg '>
         <Image
           width={340}
           height={288}
